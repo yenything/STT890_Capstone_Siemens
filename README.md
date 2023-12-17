@@ -15,5 +15,5 @@
 
    **CODE 3: Merged dataset ML** <br>
 
-3. Poster:
+3. Poster: <br>
    [Click Here](https://github.com/yenything/STT890_Capstone_Siemens/blob/main/Poster.pdf)
