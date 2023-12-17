@@ -14,3 +14,9 @@
 
 
    **CODE 3: Merged dataset ML** <br>
+
+
+3. Poster:
+   Simply include the URL for a PDF document on it's own line, or wrapped in the embed tag like [embed]https://drive.google.com/file/d/1w-bqEGv3tCHkD1UgD05NH-9GY0runAwY/view?usp=drive_link[/embed] and the plugin will embed the PDF into the page using the Google Docs Viewer embed code.
+
+The url must end with .pdf
