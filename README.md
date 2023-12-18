@@ -9,11 +9,11 @@
    The file focuses on exploratory data analysis, utilizing ten independent variables (from x1 to x10), two objective functions (f1, f2), and rank information generated in the data creation stage. Before predicting Pareto and non-Pareto sets, this file provides insights into how to best categorize the y data. It examines three methods of dividing y data: (1) a multi-class approach with ten y classes for ranks 0-9, (2) a three-class approach dividing y into lower, middle, and high ranks ranging from 0-62, and (3) a binary class approach with two y classes for lower and high ranks within the 0-62 range.
 
    **CODE 2: supervised without GAP** <br>
-   This file focuses on training supervised models
-
+   This file used PCA on three datasets, trained models using datasets with and without PCA, and compared the models' performances. (1) According to the principle compoenent analysis, the first two principle components in all three datasets can explain most of the vairiance, therefore, reducing data's dimension to two for this kind problem is reasonable. (2) 
 
 
    **CODE 3: Merged dataset ML** <br>
+   The idea of this file is enlightened by CODE2 file. The reliability of PCA in these kind of data is supported by CODE2 file. PCA can reduce the dimensions of all dataset to two, no matter the original variables number is. Therefore, **training a generalized model is reasonable which can fit in all datasets after reducing dimension**. (1) The result shows that all four models have ideal performance when we set boundary equal to 4. (2) This file also can contribute to the following capstone project in the next semester. The inverse of generalized model can be used to predicted the principle components. And the predicted principle components can be expanded to datasets with different attributes' number.
 
 3. Poster: <br>
    [Click Here](https://github.com/yenything/STT890_Capstone_Siemens/blob/main/Poster.pdf)
