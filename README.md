@@ -9,7 +9,8 @@
    The file focuses on exploratory data analysis, utilizing ten independent variables (from x1 to x10), two objective functions (f1, f2), and rank information generated in the data creation stage. Before predicting Pareto and non-Pareto sets, this file provides insights into how to best categorize the y data. It examines three methods of dividing y data: (1) a multi-class approach with ten y classes for ranks 0-9, (2) a three-class approach dividing y into lower, middle, and high ranks ranging from 0-62, and (3) a binary class approach with two y classes for lower and high ranks within the 0-62 range.
 
    **CODE 2: supervised without GAP** <br>
-   This file used PCA on three datasets, trained models using datasets with and without PCA, and compared the models' performances. (1) According to the principle compoenent analysis, the first two principle components in all three datasets can explain most of the vairiance, therefore, reducing data's dimension to two for this kind problem is reasonable. (2) 
+   This file used PCA on three datasets, trained models using datasets with and without PCA, and compared the models' performances. F1 score was chosen to evaluate the models. Because, the datasets were imbalanced, and predicting efficiency in low rank was more meaningful in this problem. (1) According to the principle compoenent analysis, the first two principle components in all three datasets can explain most of the vairiance, therefore, reducing data's dimension to **2** for this kind problem is reasonable. (2) To define the low rank population, the loop worked as model selection to find the best boudary separating the near-pareot set from far-pareto set. 
+   (Note, detailed explanation is written in our final report powerpoint.)
 
 
    **CODE 3: Merged dataset ML** <br>
