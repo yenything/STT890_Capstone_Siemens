@@ -15,9 +15,12 @@
 
    **CODE 3: Merged dataset ML** <br>
    The idea of this file is enlightened by CODE2 file. The reliability of PCA in these kind of data is supported by CODE2 file. PCA can reduce the dimensions of all dataset to two, no matter the original variables number is. Therefore, **training a generalized model is reasonable which can fit in all datasets after reducing dimension**. (1) The result shows that all four models have ideal performance when we set boundary equal to 4. (2) This file also can contribute to the following capstone project in the next semester. The inverse of generalized model can be used to predicted the principle components. And the predicted principle components can be expanded to datasets with different attributes' number.
+   
+   **CODE 4: Ancestors and Descendants** <br>
+    In our efforts to use machine learning, Data engineering has a  big impact on the rule generation for ranks which we get from  NSGA-2, which is like a smart system that figures out patterns  in an evolutionary way. Therefore, we data is partitioned into 2 categories named ancestors  and descendants where algorithm is trained from ancestors and in turn tested  across descendants where knowledge is transferred with rules incorporated 
 
-3. Poster: <br>
+4. Poster: <br>
    [Click Here](https://github.com/yenything/STT890_Capstone_Siemens/blob/main/Poster.pdf)
 
-4. Slide: <br>
+5. Slide: <br>
    pending....
